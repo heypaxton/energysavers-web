@@ -1,0 +1,43 @@
+.parallax-container {
+  height: auto;
+}
+
+.splash {
+  overflow: hidden;
+  padding: 8rem 0;
+  position: relative;
+
+  &::after {
+    @include linear-gradient(to right, $orange, $green);
+    content: '';
+    display: block;
+    opacity: 0.95;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .text {
+    color: $white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+  }
+
+  .text h1 {
+    text-shadow: 0 rem(2) rem(2) rgba($black, 0.8);
+  }
+
+  // logo
+  .text img {
+    width: rem(400);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+

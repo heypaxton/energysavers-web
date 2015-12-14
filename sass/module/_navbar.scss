@@ -1,0 +1,17 @@
+.navbar {
+  @include linear-gradient(to right, $black, $green);
+}
+
+.navbar ul li a {
+  text-transform: uppercase;
+}
+
+.navbar .brand-logo {
+  line-height: 1;
+  text-align: right;
+}
+
+.navbar .brand-logo img {
+  margin-top: 0.5rem;
+  width: 175px;
+}

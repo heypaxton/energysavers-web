@@ -1,0 +1,7 @@
+.btn {
+  background: $orange;
+
+  &:hover {
+    background: $orange - 20;
+  }
+}

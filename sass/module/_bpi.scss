@@ -1,0 +1,29 @@
+.bpi {
+  padding: 2rem 0;
+}
+
+.bpi .image {
+  text-align: right;
+
+  @include mq(lt) {
+    text-align: center;
+  }
+
+  @include mq(p) {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  @include mq(m) {
+    text-align: center;
+  }
+
+  img {
+    width: 300px;
+  }
+}
+
+.bpi .text h2 {
+  padding-top: 2rem;
+  color: $green;
+}

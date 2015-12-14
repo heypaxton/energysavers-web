@@ -1,0 +1,22 @@
+.intro {
+  background: $gray;
+  padding: 4rem 0;
+}
+
+.intro .card {
+  min-height: rem(340);
+  text-align: center;
+
+  @include mq(lt) {
+    min-height: 360px;
+  }
+
+  .card-title {
+    color: $green;
+  }
+
+  i.fa {
+    font-size: 5rem;
+    color: $green;
+  }
+}
